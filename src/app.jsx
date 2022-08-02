@@ -5,7 +5,7 @@ import HookCounterOne from "./components/hook-counter-one";
 function App() {
   return (
     <>
-      <ClassCounterOne />
+      {/* <ClassCounterOne /> */}
       <HookCounterOne />
     </>
   );
