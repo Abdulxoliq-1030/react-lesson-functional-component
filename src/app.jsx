@@ -1,10 +1,10 @@
 import React from "react";
-import HookCounterTwo from "./components/hook-counter-two";
+import HookCounterThree from "./components/hook-counter-three";
 
 function App() {
   return (
     <>
-      <HookCounterTwo />
+      <HookCounterThree />
     </>
   );
 }
