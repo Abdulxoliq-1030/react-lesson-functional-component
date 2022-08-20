@@ -1,12 +1,10 @@
 import React from "react";
-import ClassCounterOne from "./components/class-counter-one";
-import HookCounterOne from "./components/hook-counter-one";
+import IntervaHook from "./components/interval-hook";
 
 function App() {
   return (
     <>
-      {/* <ClassCounterOne /> */}
-      <HookCounterOne />
+      <IntervaHook />
     </>
   );
 }
