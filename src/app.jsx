@@ -1,10 +1,10 @@
 import React from "react";
-import IntervaHook from "./components/interval-hook";
+import DataFetching from "./components/data-fetching";
 
 function App() {
   return (
     <>
-      <IntervaHook />
+      <DataFetching />
     </>
   );
 }
