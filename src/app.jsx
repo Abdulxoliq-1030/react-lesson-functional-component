@@ -1,14 +1,12 @@
 import React from "react";
-import ClassTimer from "./components/class-timer";
-import FocusInput from "./components/focus-input";
-import HookTimer from "./components/hook-timer";
+import DocTitleOne from "./components/doc-title-one";
+import DocTitleTwo from "./components/doc-title-two";
 
 function App() {
   return (
     <>
-      {/* <FocusInput /> */}
-      <ClassTimer />
-      <HookTimer />
+      <DocTitleOne />
+      <DocTitleTwo />
     </>
   );
 }
