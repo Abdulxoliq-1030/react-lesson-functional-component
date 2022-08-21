@@ -1,10 +1,10 @@
 import React from "react";
-import ParentComp from "./components/parent-comp";
+import Counter from "./components/counter";
 
 function App() {
   return (
     <>
-      <ParentComp />
+      <Counter />
     </>
   );
 }
