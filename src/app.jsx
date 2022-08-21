@@ -1,10 +1,14 @@
 import React from "react";
-import Counter from "./components/counter";
+import ClassTimer from "./components/class-timer";
+import FocusInput from "./components/focus-input";
+import HookTimer from "./components/hook-timer";
 
 function App() {
   return (
     <>
-      <Counter />
+      {/* <FocusInput /> */}
+      <ClassTimer />
+      <HookTimer />
     </>
   );
 }
