@@ -1,17 +1,14 @@
 import React from "react";
-import ComponentA from "./components/component-a";
-
-export const userContext = React.createContext();
-export const channelContext = React.createContext();
+import CounterOne from "./components/counter-one";
+import CounterThree from "./components/counter-three";
+import CounterTwo from "./components/counter-two";
 
 function App() {
   return (
     <>
-      <userContext.Provider value={"Abdulxoliq"}>
-        <channelContext.Provider value={"Odiljonov"}>
-          <ComponentA />
-        </channelContext.Provider>
-      </userContext.Provider>
+      {/* <CounterOne /> */}
+      {/* <CounterTwo /> */}
+      <CounterThree />
     </>
   );
 }
