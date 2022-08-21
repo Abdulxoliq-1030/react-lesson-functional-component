@@ -1,12 +1,10 @@
 import React from "react";
-import DataFetchingOne from "./components/data-fetching-one";
-import DataFetchingTwo from "./components/data-fetching-two";
+import ParentComp from "./components/parent-comp";
 
 function App() {
   return (
     <>
-      {/* <DataFetchingOne /> */}
-      <DataFetchingTwo />
+      <ParentComp />
     </>
   );
 }
